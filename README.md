@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Profiler Devtool Option
 
-![Profiler Devtool Screenshot](https://github.com/DenizCansever/ReactWorkPlace/blob/why-react-re-renders/README.md)
+![Profiler Devtool Screenshot](https://github.com/DenizCansever/ReactWorkPlace/blob/why-react-re-renders/setting.png)
 
 React profiler has an option where you can highlight components that re-render. It is useful to see effects of code examples on browser.
 
