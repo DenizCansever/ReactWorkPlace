@@ -18,3 +18,4 @@ Links that I share below, are on my Todo List. I would like to make big project 
 For developers who are new to React, I highly recommend to check these links to understand fundamental concepts. 
 
  - [The React Handbook](https://thevalleyofcode.com/react/)
+ - [Common UseState Mistakes](https://refine.dev/blog/common-usestate-mistakes-and-how-to-avoid/)
