@@ -19,3 +19,4 @@ For developers who are new to React, I highly recommend to check these links to 
 
  - [The React Handbook](https://thevalleyofcode.com/react/)
  - [Common UseState Mistakes](https://refine.dev/blog/common-usestate-mistakes-and-how-to-avoid/)
+ - [Before You Memo()](https://overreacted.io/before-you-memo/)
