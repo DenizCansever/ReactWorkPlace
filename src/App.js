@@ -8,7 +8,7 @@
 */
 
 import React from "react";
-import { OnOneFile, Example1, Example2, Example3 } from "./examples";
+import { OnOneFile, Example1, Example2, Example3, Example4 } from "./examples";
 
 function App() {
   return (
@@ -20,6 +20,8 @@ function App() {
       {/* Is it true: A component will re-render because its props change. Hint: It is tricky, isn't it?*/}
       <Example3 />
       {/* How can we fix the re-render of decoration component in Example2? Hint: Make it pure! (Memoization) */}
+      <Example4 />
+      {/* What about context? */}
     </>
   );
 }
