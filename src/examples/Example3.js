@@ -8,6 +8,14 @@
  * The idea is that React will remember the previous snapshot.
  * If none of the props have changed,
  * React will re-use that stale snapshot rather than going through the trouble of generating a brand new one.
+ * 
+ * You might be wondering: why isn't this the default behaviour?? 
+ * If a component has a bunch of props and not a lot of descendants, 
+ * it can actually be slower to check if any of the props have changed compared to re-rendering the component.
+ * it would be counter-productive to memoize every single component we create. 
+ * React is designed to capture these snapshots really quickly! 
+ * But in specific circumstances, for components with a lot of descendants 
+ * or components that do a ton of internal work, this helper can help quite a bit.
  */
 
 import React from "react";
