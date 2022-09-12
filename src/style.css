@@ -1,4 +1,8 @@
-  p {
+/* Adding custom css for border and spacing between examples
+  by DC
+*/
+
+p {
   padding-bottom: 1rem;
   text-align: center;
   font-size: 2rem;

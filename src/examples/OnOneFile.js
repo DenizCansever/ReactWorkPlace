@@ -1,5 +1,8 @@
-/**The entire OnOneFile re-renders whenever a state variable changes,
- * due to managing state on the file which contains all elements that are used which is bad practice.  */
+/**************************************************************************************************************
+ * The entire OnOneFile re-renders whenever a state variable changes,
+ * due to managing state then re-render all childs on the file
+ * which contains all elements that are used which is bad practice.
+ **************************************************************************************************************/
 
 import React from "react";
 
