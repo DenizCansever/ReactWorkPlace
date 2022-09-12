@@ -1,5 +1,7 @@
+<img src="https://rawgit.com/gorangajic/react-icons/master/react-icons.svg" width="120" alt="React Icons">
 
-# React Workplace
+# React Workplace 
+
 
 In this repository you will see my code examples for specific topics in React.    
 
@@ -11,4 +13,8 @@ There are seperated topics that are written below. If you click on the topic, yo
  - [why-react-re-renders](https://www.joshwcomeau.com/react/why-react-re-renders)
  - [usememo-usecallback](https://www.joshwcomeau.com/react/usememo-and-usecallback)
 
+## TODO List
+Links that I share below, are on my Todo List. I would like to make big project to adapt some ideas from these sources.   
+For developers who are new to React, I highly recommend to check these links to understand fundamental concepts. 
 
+ - [The React Handbook](https://thevalleyofcode.com/react/)
