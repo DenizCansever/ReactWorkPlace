@@ -1,6 +1,12 @@
 /** So, we understand that, When a component re-renders, because one of its state variables has been updated,
  * that re-render will cascade all the way down the tree, in order for React
  * to fill in the details of this new sketch, to capture a new snapshot.
+ * *****************************************************************************
+ * A sneakier version of this problem has to do with refs. 
+ * If we pass a ref as a prop, React won't be able to tell whether or 
+ * not we've mutated it since the last render. And so it chooses to re-render, 
+ * to be on the safe side.
+ * *****************************************************************************
  * Then one of the solution is make the component pure. Why do we need that?
  * By wrapping our Decoration component with React.memo, we're telling React
  * “Hey, I know that this component is pure. You don't need to re-render it unless its props change.”
