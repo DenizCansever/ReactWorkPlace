@@ -8,7 +8,7 @@
 */
 
 import React from "react";
-import { OnOneFile, Example1, Example2, Example3, Example4 } from "./examples";
+import { OnOneFile, Example1, Example2, Example3, Example4, Example5 } from "./examples";
 
 function App() {
   return (
@@ -22,6 +22,9 @@ function App() {
       {/* How can we fix the re-render of decoration component in Example2? Hint: Make it pure! (Memoization) */}
       <Example4 />
       {/* What about context? */}
+      <Example5 />
+      {/* Anything defined inside a React component is re-created on every single render. 
+      whether or not we wrap it with React.memo! */}
     </>
   );
 }
